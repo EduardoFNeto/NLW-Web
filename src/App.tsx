@@ -1,18 +1,13 @@
 import React from 'react';
-import styled from 'styled-components'
 import './App.css';
 
-import Header from './Header'
-
-const Title = styled.h1`
-`
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
-    <Header title='Cabeçalho' />
-    <Title>Olá Magé</Title>
+      <Home />
     </>
   );
 }
